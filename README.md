@@ -143,7 +143,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn openpyxl jupyter
 
 **Chamseddine Doula**
 - GitHub: [@chamseddinedoulaEsprit](https://github.com/chamseddinedoulaEsprit)
-- Projet: PIDEV - Power BI Hôtellerie
+- Projet: Power BI Hôtellerie
 
 ## 📝 Licence
 
