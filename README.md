@@ -85,6 +85,10 @@ Dataset final nettoyé et prêt pour Power BI, contenant :
 ## 🛠️ Technologies Utilisées
 
 - **Power BI** : Visualisation et tableaux de bord
+  - DAX : Création de mesures et calculs
+  - Power Query : Transformation des données
+  - RLS (Row-Level Security) : Gestion des rôles et permissions
+  - Signets et filtres croisés : Navigation conditionnelle
 - **Python 3.x** : Traitement et analyse des données
   - pandas : Manipulation de données
   - numpy : Calculs numériques
@@ -120,6 +124,30 @@ pip install pandas numpy matplotlib seaborn scikit-learn openpyxl jupyter
    - Segmentation client
    - Rapports d'annulation
 
+### Configuration des rôles pour les pages
+
+Le rapport utilise la sécurité au niveau des lignes (RLS) et la visibilité conditionnelle pour adapter l'expérience à différents rôles d'utilisateurs :
+
+1. **Direction Générale**
+   - Accès complet à toutes les données et pages
+   - Visualisation de tous les KPIs et métriques
+
+2. **Marketing et Ventes**
+   - Focus sur : canaux de réservation, nationalité, motifs de séjour
+   - Pages principales : Analyse Marketing, Segmentation Client, Performance des Canaux
+
+3. **Opérations Hôtelières**
+   - Focus sur : gestion des chambres, demandes spéciales, taux d'occupation
+   - Pages principales : Gestion des Chambres, Prévisions d'Occupation, Services
+
+4. **Finance**
+   - Focus sur : revenus, ADR, RevPAR, analyse des coûts
+   - Pages principales : Performance Financière, Analyse des Revenus, Prévisions
+
+5. **Service Client**
+   - Focus sur : évaluations, commentaires, programme de fidélité
+   - Pages principales : Satisfaction Client, Analyse des Avis, Fidélisation
+
 ## 📊 KPIs Clés à Suivre
 
 - **Taux d'occupation** : Nombre de chambres réservées / Total chambres
@@ -143,7 +171,7 @@ pip install pandas numpy matplotlib seaborn scikit-learn openpyxl jupyter
 
 **Chamseddine Doula**
 - GitHub: [@chamseddinedoulaEsprit](https://github.com/chamseddinedoulaEsprit)
-- Projet: Power BI Hôtellerie
+- Projet: PIDEV - Power BI Hôtellerie
 
 ## 📝 Licence
 
